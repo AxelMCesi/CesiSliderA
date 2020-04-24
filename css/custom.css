@@ -1,0 +1,122 @@
+ @import url('https://fonts.googleapis.com/css?family=Economica|Handlee|Zilla+Slab');
+
+/*
+  Vert = #66bb6a
+  Orange = #ffcc80
+  font: 20px 'Economica', sans-serif;
+  font: 20px 'Handlee', cursive;
+  font: 20px 'Zilla Slab', serif;
+*/
+
+.container {
+  padding-left: 200px;
+  width: 100%;
+}
+nav {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bdce60+0,417c32+100 */
+  background: #bdce60; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #bdce60 0%, #417c32 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #bdce60 0%,#417c32 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #bdce60 0%,#417c32 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdce60', endColorstr='#417c32',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  margin-bottom: 3rem;
+}
+.cawotte {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+.rotate {
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
+  transition: 2s;
+}
+
+.icons{
+  margin-top: 5px;
+  padding-top: 7px;
+  font-size: 1.5rem;
+  
+
+}
+.news {
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+
+.date-article {
+  text-align: right;
+  padding-right: 3px;
+}
+
+.article-text {
+  font: 50px 'Zilla Slab', serif;
+  text-align: center;
+}
+
+.title {
+  font: 30px 'Economica', sans-serif;
+  text-align: center;
+  border-bottom: 1px solid #447A35;
+}
+
+.information {
+  float: left;
+  padding-left: 500px;
+   height: 400px;
+  width: 100%;
+}
+
+.text {
+  padding-top: 3rem;
+  font: 20px 'Zilla Slab', serif;
+  text-align: inherit;
+}
+
+.img-ferme {
+  height: 550px;
+  width: 100%;
+  border-top: 4px solid #447A35;
+}
+
+.img-panier {
+  height: 400px;
+  width: 100%;
+  border-top: 4px solid #447A35;
+}
+
+.title-ferme {
+    font: 35px 'Economica', sans-serif;
+    text-decoration: #447A35 underline;
+    padding-bottom: 2rem;
+}
+
+
+.card-reveal{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.7) !important;
+}
+div.card-reveal span.card-title{
+  color: #ffffff !important;
+}
+.tabs{
+  background-color: transparent;
+}
+td, th{
+  padding: 5px 5px !important;
+}
+table.highlight>tbody>tr:hover{
+  background-color: rgba(238,110,115,0.6);
+}
+input[type=search]:focus{
+  border-bottom: 1px solid #ee6e73 !important;
+  box-shadow: 0 1px 0 0 #ee6e73 !important;
+}
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}

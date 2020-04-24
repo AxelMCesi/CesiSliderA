@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: "BalooPaaji2-ExtraBold";
+    src: url("../fonts/BalooPaaji2-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "BalooPaaji2-Regular";
+    src: url("../fonts/BalooPaaji2-Regular.ttf");
+}
+
+=======
+>>>>>>> 62820cb447ef14d470cf7eba4c3b7f84f89abdc9
+.container-presentation {
+    margin-left: 75px !important;
+    margin-right: 0px !important;
+}
+
+.row-titre {
+    margin-bottom: 20px;
+<<<<<<< HEAD
+}
+
+.h1-titre {
+    font-family: "BalooPaaji2-ExtraBold";
+}
+
+.p-description {
+    font-family: "BalooPaaji2-Regular";
+=======
+>>>>>>> 62820cb447ef14d470cf7eba4c3b7f84f89abdc9
+}
