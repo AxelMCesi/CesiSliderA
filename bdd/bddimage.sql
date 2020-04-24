@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  jeu. 23 avr. 2020 à 09:37
+-- Généré le :  ven. 24 avr. 2020 à 15:37
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.1.9
 
@@ -33,7 +33,15 @@ CREATE TABLE IF NOT EXISTS `image` (
   `IdImage` int(11) NOT NULL AUTO_INCREMENT,
   `LibImage` varchar(100) NOT NULL,
   PRIMARY KEY (`IdImage`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `image`
+--
+
+INSERT INTO `image` (`IdImage`, `LibImage`) VALUES
+(15, 'mld.png'),
+(14, 'photodeprofil.png');
 
 -- --------------------------------------------------------
 

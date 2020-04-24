@@ -37,7 +37,7 @@
       {
         echo" <a class='waves-effect waves-light btn grey lighten-2 black-text hoverable' href='index.php?section=galerieimage'>Galerie d'image</a></button> ";
         echo" <a class='waves-effect waves-light btn grey lighten-2 black-text hoverable' href='index.php?section=galerieslider'>Galerie slider</a></button> ";
-         echo" <a class='waves-effect waves-light btn grey lighten-2 black-text hoverable' href='index.php?section=creationslider'>Creation slider</a></button> ";
+         //echo" <a class='waves-effect waves-light btn grey lighten-2 black-text hoverable' href='index.php?section=creationslider'>Creation slider</a></button> ";
 
       }       
       ?>
